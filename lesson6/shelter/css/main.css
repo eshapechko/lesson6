@@ -1,0 +1,260 @@
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 60px 0;
+}
+.logo h1 a {
+  color: #f1cdb3;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+}
+.subtitle {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+ul li a {
+  color: #cdcdcd;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding-bottom: 7px;
+}
+ul li a:hover {
+  color: #fff;
+}
+.active {
+  color: #fafafa;
+  border-bottom: #f1cdb3 solid 3px;
+}
+
+/* Section hero */
+
+.hero {
+  padding-top: 180px;
+  background: linear-gradient(90.26deg, #7d604b 0.23%, #251000 99.8%);
+}
+.section-hero {
+  display: flex;
+  justify-content: space-between;
+}
+.people {
+  max-width: 460px;
+  padding-top: 163px;
+}
+.dog img {
+  display: block;
+}
+.people h2 {
+  font-size: 44px;
+  color: #fff;
+  letter-spacing: 0;
+  max-width: 325px;
+}
+.people p {
+  font-family: Arial;
+  color: #cdcdcd;
+  font-size: 15px;
+  line-height: 160%;
+  padding: 42px 0 41px 0;
+}
+
+/* Section About */
+
+.about {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.section-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pets {
+  width: 50%;
+}
+.about__shelter {
+  width: 50%;
+}
+.pets img {
+  margin-left: 175px;
+  display: block;
+}
+.about__shelter h2 {
+  max-width: 370px;
+}
+.about__shelter p {
+  color: #4c4c4c;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  max-width: 430px;
+  line-height: 160%;
+  padding-top: 25px;
+}
+
+/* Section Our friends */
+
+.our-friends {
+  padding: 80px 0 100px 0;
+  background: #f6f6f6;
+}
+.our-friends .container {
+  text-align: center;
+}
+.our-friends .container h2 {
+  padding-bottom: 60px;
+}
+.slaider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.animal {
+  display: flex;
+  justify-content: space-between;
+}
+.card,
+.card-center {
+  background-color: #fafafa;
+  padding-bottom: 30px;
+}
+.card-center {
+  margin: 0 90px;
+}
+.card:hover,
+.card-center:hover {
+  background-color: #fff;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+.animal p {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  padding: 30px 0;
+}
+.our-friends .primary {
+  margin-top: 60px;
+}
+.arrow-left,
+.arrow-right {
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 2px solid #f1cdb3;
+  background: transparent;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+  background-color: #fddcc4;
+  border-radius: 100px;
+}
+
+/* Section Help */
+
+.help {
+  padding: 80px 0 43px 0;
+}
+.help .container {
+  text-align: center;
+}
+.help h2 {
+  max-width: 310px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.help-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.help-content div {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 55px;
+}
+.icon {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.help-content div p {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  line-height: 23px;
+}
+
+/* Section Donation */
+.donation {
+  padding: 80px 0 100px 0;
+  background: #f6f6f6;
+}
+.donation-dog {
+  margin-left: 142px;
+}
+.information-donation {
+  margin-right: 143px;
+  max-width: 380px;
+}
+.information-donation h2 {
+  max-width: 300px;
+  margin-bottom: 20px;
+  line-height: 45px;
+  padding-bottom: 1px;
+}
+.name-bank {
+  font-size: 15px;
+  color: #545454;
+}
+.credit {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.credit-card {
+  background-image: url(../images/credit-card.svg);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  background-color: #f1cdb3;
+  padding: 10px 15px 10px 60px;
+  border-radius: 9px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  line-height: 23px;
+  color: #545454;
+}
+
+.legal-information {
+  font-family: "Arial";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+  margin-bottom: 1px;
+}
+@media (max-width: 1220px) {
+  .container {
+    max-width: 95%;
+  }
+  .card-center {
+    margin: 0 40px;
+  }
+  .dog img {
+    max-width: 569px;
+  }
+}
+@media (max-width: 1070px) {
+  .card:last-child {
+    display: none;
+  }
+}
+@media (max-width: 1030px) {
+  .section-about {
+    flex-wrap: wrap;
+  }
+}
